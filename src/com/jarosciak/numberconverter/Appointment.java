@@ -8,22 +8,19 @@ public class Appointment {
     private String endTime;
     private Long durationTime;
 
-    // Set Appointment Description
-    public void setAppointmentDescription(String data)
-    {
-        appointmentDescription = data;
-    }
-
     // Set Start Time
-    public void setStartTime(String data)
-    {
+    public void setStartTime(String data) {
         startTime = data;
     }
 
     // Set End Time
-    public void setEndTime(String data)
-    {
+    public void setEndTime(String data) {
         endTime = data;
+    }
+
+    // Set Appointment Description
+    public void setAppointmentDescription(String data) {
+        appointmentDescription = data;
     }
 
     // Set Duration
@@ -31,21 +28,13 @@ public class Appointment {
         this.durationTime = durationTime;
     }
 
-    // Get Appointment Description
-    public String getAppointmentDescription()
-    {
-        return appointmentDescription;
-    }
-
     // Get Start Time
-    public String getStartTime()
-    {
+    public String getStartTime() {
         return startTime;
     }
 
     // Get End Time
-    public String getEndTime()
-    {
+    public String getEndTime() {
         return endTime;
     }
 
@@ -54,3 +43,5 @@ public class Appointment {
         return durationTime;
     }
 }
+
+
